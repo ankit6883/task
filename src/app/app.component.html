@@ -1,0 +1,13 @@
+<div class="hero-img">
+  <div class="trans">
+    <div class="title">
+      <h1>Result of the test</h1>
+    </div>
+    <div class="time-slot-container">
+      <div class="time-slot-box" *ngFor='let icon of iconList'>
+        <app-avatar-img [iconName]='icon.iconName' [title]='icon.title' [id]='icon.id'>
+        </app-avatar-img>
+      </div>
+    </div>
+  </div>
+</div>
